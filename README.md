@@ -2,7 +2,7 @@
 
 Author: Mehak Pandey
 Email : pandeymehak.217@gmail.com
-Tools : SQL, Python, R, Power BI
+Tools : SQL, Python, R
 Period: 2020 - 2024
 
 ---
@@ -16,8 +16,7 @@ full data analyst toolkit that HR-tech, IT services, and consulting companies
 test in their analyst interviews.
 
 The project includes a logistic regression model in R that predicts attrition
-probability, chi-square and t-test hypothesis testing, Power BI dashboards
-with 12 DAX measures, and SQL-based attrition risk scoring.
+probability, chi-square and t-test hypothesis testing, and SQL-based attrition risk scoring.
 
 ---
 
@@ -58,8 +57,6 @@ hr-analytics/
 |-- r_analysis/
 |   |-- hr_statistics.R           (R stats, logistic regression, ggplot2)
 |
-|-- powerbi/
-|   |-- POWERBI_GUIDE.md          (12 DAX measures, 4 dashboard pages)
 |
 |-- outputs/
 |   |-- hr_dashboard.png
@@ -127,19 +124,6 @@ Visualizations
 ggplot2 charts: attrition by department, salary distribution,
 sprint velocity trend, correlation heatmap saved as PNG files.
 
----
-
-## Power BI Dashboard (4 Pages, 12 DAX Measures)
-
-Page 1 - Workforce Overview: headcount, gender, salary by department
-Page 2 - Attrition Deep Dive: gauge, risk table, attrition by reason
-Page 3 - Performance and Training: KPI scores, training ROI matrix
-Page 4 - Agile Metrics: sprint velocity, completion, bug tracking
-
-Key DAX Measures: Attrition Rate %, Gender Pay Gap %, High Risk Employees,
-Training Completion Rate, Avg Sprint Velocity, Attrition Cost vs Budget.
-
-Full setup guide in powerbi/POWERBI_GUIDE.md
 
 ---
 
@@ -207,6 +191,6 @@ ggplot2 visualizations with custom color themes
 ---
 
 About
-Mehak Pandey — Fresher Data Analyst
+Mehak Pandey —  Data Analyst
 Email: pandeymehak.217@gmail.com
 Dataset is synthetically generated to simulate real corporate HR data.
