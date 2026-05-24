@@ -1,0 +1,11 @@
+dept_id,dept_name,dept_head,budget_lakh,headcount_target,location,cost_center
+DEPT01,Engineering,Isha Rao,800,127,Pune,CC8849
+DEPT02,Product,Meera Agarwal,1000,66,Kolkata,CC9643
+DEPT03,Sales,Nisha Sharma,50,114,Ahmedabad,CC8015
+DEPT04,Marketing,Ananya Kumar,1000,79,Hyderabad,CC1693
+DEPT05,HR,Vikram Rao,500,133,Bengaluru,CC6389
+DEPT06,Finance,Rajesh Gupta,800,114,Bengaluru,CC3536
+DEPT07,Operations,Anjali Gupta,1000,25,Noida,CC3639
+DEPT08,Data Analytics,Shreya Pillai,300,58,Delhi,CC1608
+DEPT09,Customer Success,Pooja Nair,50,70,Hyderabad,CC2162
+DEPT10,Legal,Deepika Mishra,300,119,Hyderabad,CC6590

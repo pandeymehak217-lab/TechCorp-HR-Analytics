@@ -1,0 +1,390 @@
+attrition_id,emp_id,department,role,left_date,tenure_months,annual_salary,primary_reason,secondary_reason,exit_interview_done,would_rejoin,notice_period_days,replacement_cost_lakh,age,gender,job_satisfaction,work_life_balance
+ATT00001,EMP00012,Operations,COO,2021-08-08,22,769079.0,Manager Issues,Manager Issues,1,No,60,8.4,33,Female,5,4
+ATT00002,EMP00013,Product,Director of Product,2023-02-03,59,595839.0,Manager Issues,Growth Stagnation,1,Maybe,60,3.1,51,Female,5,5
+ATT00003,EMP00016,Finance,CFO,2021-09-18,45,733267.0,Better Opportunity,Health Issues,1,Maybe,90,9.8,23,Female,1,3
+ATT00004,EMP00022,Finance,CFO,2024-03-22,36,634489.0,Personal Reasons,Manager Issues,0,Maybe,30,6.9,22,Male,4,4
+ATT00005,EMP00029,Data Analytics,Senior Analyst,2021-04-04,8,1188490.0,Work Life Balance,Relocation,1,No,30,13.9,45,Female,5,3
+ATT00006,EMP00032,Finance,Senior Analyst,2024-03-31,41,914404.0,Better Opportunity,Personal Reasons,0,No,60,6.4,44,Female,1,1
+ATT00007,EMP00046,Engineering,DevOps Engineer,2023-03-22,49,713438.0,Company Culture,Better Opportunity,1,No,60,9.5,53,Male,3,4
+ATT00008,EMP00048,Customer Success,Account Executive,2024-03-03,32,850017.0,Personal Reasons,Better Opportunity,1,Maybe,30,8.7,52,Male,4,5
+ATT00009,EMP00052,HR,HR Executive,2022-04-02,34,530590.0,Personal Reasons,Better Opportunity,1,No,90,4.7,37,Female,4,2
+ATT00010,EMP00066,Data Analytics,Data Scientist,2021-01-18,23,1553955.0,Better Opportunity,Growth Stagnation,1,Maybe,90,15.0,36,Male,5,1
+ATT00011,EMP00067,Product,Product Manager,2024-04-26,11,1635246.0,Relocation,Manager Issues,1,Maybe,90,12.1,50,Female,5,3
+ATT00012,EMP00078,Marketing,Content Writer,2023-04-24,10,770474.0,Higher Salary,Competitor Offer,0,No,60,4.8,26,Male,1,2
+ATT00013,EMP00093,Engineering,Software Engineer,2023-09-19,5,752757.0,Competitor Offer,Growth Stagnation,1,Maybe,30,6.3,38,Female,3,4
+ATT00014,EMP00102,HR,HR Director,2023-06-20,0,849919.0,Personal Reasons,Personal Reasons,1,Yes,90,11.9,33,Male,1,5
+ATT00015,EMP00109,Data Analytics,Data Analyst,2023-09-13,95,654000.0,Health Issues,Competitor Offer,1,Yes,90,8.6,22,Male,2,2
+ATT00016,EMP00110,Sales,Regional Manager,2024-04-11,4,715966.0,Growth Stagnation,Better Opportunity,1,Maybe,90,6.9,41,Female,2,5
+ATT00017,EMP00121,Customer Success,CS Manager,2024-11-27,13,597426.0,Personal Reasons,Relocation,1,Yes,60,5.0,29,Male,3,4
+ATT00018,EMP00124,Engineering,Software Engineer,2023-07-13,80,899042.0,Relocation,Growth Stagnation,1,Yes,60,11.1,35,Female,1,4
+ATT00019,EMP00131,Data Analytics,Senior Analyst,2023-08-13,47,943664.0,Higher Salary,Manager Issues,1,Yes,60,11.7,50,Male,2,2
+ATT00020,EMP00134,Operations,Operations Manager,2023-12-22,22,642403.0,Health Issues,Personal Reasons,0,Yes,30,8.7,30,Female,2,4
+ATT00021,EMP00139,Legal,Legal Executive,2023-02-14,69,689687.0,Personal Reasons,Work Life Balance,1,No,60,9.2,27,Other,1,1
+ATT00022,EMP00150,Sales,Senior Sales,2021-08-27,21,912845.0,Better Opportunity,Personal Reasons,1,Maybe,90,8.1,35,Other,4,1
+ATT00023,EMP00154,Legal,Legal Manager,2023-12-20,1,690990.0,Growth Stagnation,Relocation,0,No,90,9.3,26,Male,3,2
+ATT00024,EMP00157,Data Analytics,Senior Analyst,2023-06-21,95,1225606.0,Manager Issues,Personal Reasons,1,No,30,12.5,39,Male,4,4
+ATT00025,EMP00167,Marketing,Marketing Executive,2024-09-29,40,725442.0,Relocation,Growth Stagnation,1,Yes,60,6.6,40,Male,2,2
+ATT00026,EMP00169,Marketing,Content Writer,2022-05-23,4,771032.0,Competitor Offer,Higher Salary,1,Maybe,90,8.8,44,Female,4,3
+ATT00027,EMP00176,Sales,Regional Manager,2024-05-23,11,783720.0,Growth Stagnation,Better Opportunity,1,Maybe,90,8.3,48,Male,3,1
+ATT00028,EMP00177,Finance,Financial Analyst,2023-03-12,11,791573.0,Manager Issues,Health Issues,0,Maybe,90,5.2,38,Female,5,5
+ATT00029,EMP00178,Finance,Financial Analyst,2024-12-27,42,843973.0,Health Issues,Growth Stagnation,1,No,60,12.5,34,Male,4,4
+ATT00030,EMP00182,Finance,Controller,2023-02-15,86,817166.0,Competitor Offer,Manager Issues,1,Yes,90,11.4,47,Female,1,1
+ATT00031,EMP00184,Operations,COO,2022-02-11,4,846202.0,Relocation,Growth Stagnation,1,Yes,30,10.4,48,Male,2,5
+ATT00032,EMP00190,Marketing,Digital Marketing Manager,2023-06-03,17,604718.0,Company Culture,Better Opportunity,1,Yes,30,3.7,24,Male,2,4
+ATT00033,EMP00192,Customer Success,CS Executive,2022-04-18,30,692152.0,Manager Issues,Growth Stagnation,1,No,60,4.3,30,Male,1,1
+ATT00034,EMP00204,Marketing,Brand Manager,2024-02-20,27,838794.0,Better Opportunity,Competitor Offer,1,Maybe,60,4.9,38,Female,5,5
+ATT00035,EMP00205,Engineering,Engineering Manager,2017-12-03,12,2396752.0,Manager Issues,Company Culture,0,Yes,30,14.1,29,Female,5,3
+ATT00036,EMP00206,Operations,Operations Manager,2022-06-16,5,798896.0,Better Opportunity,Health Issues,1,Maybe,60,6.0,23,Female,3,1
+ATT00037,EMP00210,Product,Product Analyst,2023-01-13,27,671406.0,Relocation,Personal Reasons,1,No,30,9.7,44,Female,1,2
+ATT00038,EMP00211,HR,HR Executive,2019-10-04,17,457630.0,Competitor Offer,Relocation,1,No,30,5.3,47,Female,1,1
+ATT00039,EMP00212,Data Analytics,Data Analyst,2023-04-11,74,547033.0,Growth Stagnation,Higher Salary,1,No,90,5.8,36,Male,4,2
+ATT00040,EMP00216,Data Analytics,Data Scientist,2023-12-08,96,2144989.0,Work Life Balance,Competitor Offer,1,Yes,30,18.1,50,Male,2,5
+ATT00041,EMP00219,HR,HR Business Partner,2023-01-18,23,787044.0,Relocation,Competitor Offer,0,No,60,6.8,41,Female,2,2
+ATT00042,EMP00224,Sales,Sales Manager,2020-07-28,33,1048253.0,Better Opportunity,Health Issues,1,No,30,13.5,47,Female,4,1
+ATT00043,EMP00226,Operations,COO,2018-12-22,22,752122.0,Higher Salary,Better Opportunity,0,Yes,90,4.9,34,Male,1,1
+ATT00044,EMP00229,HR,Recruiter,2019-09-25,13,788115.0,Relocation,Better Opportunity,1,Maybe,60,5.2,24,Female,4,4
+ATT00045,EMP00230,Product,Product Analyst,2021-09-02,34,764884.0,Personal Reasons,Better Opportunity,1,Maybe,90,8.0,55,Female,4,2
+ATT00046,EMP00241,Engineering,Senior Engineer,2022-07-09,33,1595544.0,Company Culture,Manager Issues,1,Maybe,30,9.8,50,Female,3,1
+ATT00047,EMP00251,Finance,Controller,2023-11-04,51,693592.0,Manager Issues,Growth Stagnation,0,Maybe,30,4.4,44,Other,1,3
+ATT00048,EMP00264,Product,Director of Product,2024-10-15,49,858193.0,Higher Salary,Competitor Offer,0,Yes,90,6.7,48,Male,2,4
+ATT00049,EMP00267,Operations,Operations Executive,2022-03-29,21,824844.0,Higher Salary,Relocation,0,Yes,60,10.9,42,Male,5,1
+ATT00050,EMP00274,Customer Success,CS Executive,2024-03-23,17,847643.0,Work Life Balance,Higher Salary,1,Yes,60,9.3,45,Female,1,1
+ATT00051,EMP00277,Customer Success,CS Manager,2017-03-12,14,608471.0,Competitor Offer,Growth Stagnation,1,Maybe,30,4.2,36,Female,3,3
+ATT00052,EMP00283,Finance,CFO,2019-06-03,45,663210.0,Competitor Offer,Higher Salary,1,No,90,8.5,51,Male,1,3
+ATT00053,EMP00284,Product,Product Analyst,2024-06-30,21,619392.0,Better Opportunity,Relocation,1,No,90,7.0,42,Female,2,1
+ATT00054,EMP00285,Sales,Account Manager,2023-07-30,29,649932.0,Personal Reasons,Manager Issues,0,Maybe,30,3.4,50,Male,2,4
+ATT00055,EMP00288,Legal,Legal Executive,2015-10-12,7,735477.0,Health Issues,Health Issues,1,Yes,30,5.3,22,Male,5,3
+ATT00056,EMP00292,Finance,Finance Manager,2024-10-02,70,826231.0,Relocation,Competitor Offer,0,Maybe,30,5.4,49,Female,3,2
+ATT00057,EMP00299,Sales,Senior Sales,2023-06-29,2,974756.0,Manager Issues,Manager Issues,1,No,60,7.8,27,Male,2,4
+ATT00058,EMP00305,Legal,General Counsel,2024-08-16,12,805795.0,Manager Issues,Higher Salary,1,No,90,5.0,42,Male,5,4
+ATT00059,EMP00307,Product,Senior PM,2024-10-05,61,1934803.0,Company Culture,Manager Issues,1,No,30,22.8,32,Male,3,3
+ATT00060,EMP00309,Engineering,DevOps Engineer,2021-06-24,61,730500.0,Competitor Offer,Work Life Balance,1,Maybe,90,10.1,43,Female,3,5
+ATT00061,EMP00317,Operations,Process Analyst,2021-11-16,13,693167.0,Relocation,Health Issues,1,Yes,30,7.1,22,Female,5,4
+ATT00062,EMP00322,Engineering,DevOps Engineer,2024-06-12,25,767887.0,Work Life Balance,Better Opportunity,1,No,90,9.9,22,Male,2,5
+ATT00063,EMP00323,Finance,Finance Manager,2022-08-21,62,743176.0,Manager Issues,Higher Salary,1,No,90,5.3,34,Male,4,2
+ATT00064,EMP00336,HR,HR Manager,2023-12-28,28,597998.0,Company Culture,Personal Reasons,0,No,60,8.9,30,Female,2,1
+ATT00065,EMP00340,Legal,Legal Manager,2018-01-04,20,777811.0,Better Opportunity,Company Culture,1,Maybe,90,7.1,47,Female,2,1
+ATT00066,EMP00355,Legal,Legal Executive,2024-11-16,63,751360.0,Personal Reasons,Work Life Balance,1,Maybe,30,4.9,32,Female,5,2
+ATT00067,EMP00363,HR,HR Director,2024-05-24,8,756388.0,Growth Stagnation,Work Life Balance,1,Maybe,90,4.4,38,Male,2,3
+ATT00068,EMP00373,Sales,Account Manager,2024-03-19,41,816633.0,Higher Salary,Better Opportunity,1,Maybe,90,6.8,53,Male,2,4
+ATT00069,EMP00374,Sales,VP Sales,2024-01-02,95,687816.0,Health Issues,Personal Reasons,1,Maybe,90,9.6,26,Female,5,3
+ATT00070,EMP00378,Legal,Company Secretary,2020-12-06,4,766546.0,Personal Reasons,Company Culture,0,No,90,5.2,47,Male,1,1
+ATT00071,EMP00381,Engineering,Senior Engineer,2024-11-16,17,1608572.0,Manager Issues,Health Issues,1,Maybe,90,10.9,34,Female,5,3
+ATT00072,EMP00382,Customer Success,CS Executive,2020-12-16,15,652357.0,Relocation,Manager Issues,1,No,60,6.2,43,Male,3,4
+ATT00073,EMP00392,Data Analytics,Analytics Manager,2018-06-29,36,3017354.0,Work Life Balance,Competitor Offer,1,No,90,30.7,35,Male,3,2
+ATT00074,EMP00395,Legal,Legal Manager,2024-08-25,78,812014.0,Higher Salary,Relocation,1,No,90,8.9,32,Female,5,3
+ATT00075,EMP00401,Engineering,Tech Lead,2021-04-01,56,2133987.0,Company Culture,Relocation,1,Yes,30,25.9,50,Male,3,5
+ATT00076,EMP00404,Operations,Operations Executive,2024-02-25,5,819867.0,Personal Reasons,Growth Stagnation,1,Yes,90,5.5,32,Female,3,2
+ATT00077,EMP00413,Customer Success,CS Manager,2023-03-26,13,685684.0,Higher Salary,Relocation,1,No,30,6.8,45,Male,5,1
+ATT00078,EMP00417,Product,Product Manager,2021-04-17,47,1365397.0,Manager Issues,Manager Issues,0,No,90,15.0,42,Female,4,3
+ATT00079,EMP00423,Marketing,Marketing Executive,2017-10-15,15,869620.0,Competitor Offer,Competitor Offer,0,No,30,8.5,33,Male,5,3
+ATT00080,EMP00426,Data Analytics,Senior Analyst,2021-08-17,20,961534.0,Growth Stagnation,Higher Salary,0,No,30,8.7,29,Male,3,2
+ATT00081,EMP00428,Finance,Financial Analyst,2023-01-18,13,698270.0,Growth Stagnation,Personal Reasons,0,Yes,60,7.1,26,Male,2,3
+ATT00082,EMP00440,Finance,Senior Analyst,2023-09-29,11,873786.0,Manager Issues,Better Opportunity,1,No,90,9.8,29,Male,4,5
+ATT00083,EMP00444,Legal,Company Secretary,2024-10-28,110,815089.0,Personal Reasons,Growth Stagnation,1,No,30,11.2,45,Male,5,2
+ATT00084,EMP00445,HR,Recruiter,2024-04-26,102,666448.0,Better Opportunity,Relocation,0,Yes,90,4.2,36,Female,4,5
+ATT00085,EMP00449,Operations,Process Analyst,2023-12-23,49,666742.0,Higher Salary,Better Opportunity,1,Yes,30,5.6,54,Female,5,2
+ATT00086,EMP00450,Marketing,Digital Marketing Manager,2024-05-27,31,598118.0,Work Life Balance,Relocation,1,Maybe,30,7.5,49,Male,5,2
+ATT00087,EMP00455,Engineering,Engineering Manager,2016-11-19,10,2433213.0,Company Culture,Better Opportunity,1,Maybe,90,28.5,23,Female,1,4
+ATT00088,EMP00499,Product,Product Manager,2023-01-26,0,1334365.0,Work Life Balance,Work Life Balance,0,No,90,8.8,25,Male,5,1
+ATT00089,EMP00509,Product,Senior PM,2015-05-02,1,2209824.0,Work Life Balance,Company Culture,1,No,30,31.7,23,Male,5,2
+ATT00090,EMP00510,Operations,Operations Manager,2024-08-03,88,845319.0,Health Issues,Competitor Offer,1,Yes,30,7.0,54,Female,2,5
+ATT00091,EMP00514,Finance,Senior Analyst,2022-08-27,18,973451.0,Growth Stagnation,Growth Stagnation,1,Yes,90,9.8,22,Female,3,3
+ATT00092,EMP00520,Engineering,DevOps Engineer,2022-01-14,83,595965.0,Manager Issues,Work Life Balance,1,Yes,90,3.1,45,Female,4,4
+ATT00093,EMP00522,Sales,Senior Sales,2018-11-11,3,982858.0,Health Issues,Competitor Offer,0,Yes,90,12.2,55,Female,5,3
+ATT00094,EMP00532,Product,Director of Product,2017-11-24,30,650399.0,Company Culture,Company Culture,1,Maybe,30,7.2,52,Male,2,1
+ATT00095,EMP00535,Data Analytics,BI Developer,2023-04-04,29,872054.0,Health Issues,Health Issues,1,Yes,60,12.1,40,Male,5,3
+ATT00096,EMP00537,Legal,General Counsel,2019-11-28,25,661576.0,Relocation,Health Issues,1,No,60,6.5,39,Female,5,3
+ATT00097,EMP00546,Legal,Company Secretary,2015-09-17,4,608438.0,Health Issues,Health Issues,0,Maybe,30,8.2,26,Male,3,3
+ATT00098,EMP00558,Legal,Company Secretary,2023-10-24,32,841454.0,Relocation,Health Issues,0,No,60,10.3,43,Male,5,2
+ATT00099,EMP00566,Operations,Process Analyst,2020-10-24,28,824025.0,Competitor Offer,Manager Issues,0,No,90,10.0,52,Male,1,2
+ATT00100,EMP00570,Finance,Finance Manager,2024-03-29,33,866870.0,Higher Salary,Growth Stagnation,0,Maybe,90,10.2,51,Male,5,1
+ATT00101,EMP00574,Data Analytics,Data Analyst,2023-07-23,19,696857.0,Competitor Offer,Work Life Balance,1,Maybe,30,8.3,49,Female,5,2
+ATT00102,EMP00579,Engineering,Tech Lead,2019-01-09,36,2160925.0,Work Life Balance,Manager Issues,0,No,90,20.3,52,Female,3,5
+ATT00103,EMP00587,Data Analytics,Senior Analyst,2020-12-23,31,883392.0,Better Opportunity,Personal Reasons,1,No,30,10.9,51,Male,1,3
+ATT00104,EMP00588,Customer Success,Account Executive,2024-04-06,12,706092.0,Personal Reasons,Growth Stagnation,1,No,90,7.5,23,Female,3,3
+ATT00105,EMP00593,Legal,Company Secretary,2024-07-01,11,701379.0,Manager Issues,Company Culture,0,Maybe,90,7.7,48,Female,3,2
+ATT00106,EMP00597,Finance,Senior Analyst,2018-11-02,20,1036577.0,Work Life Balance,Better Opportunity,1,No,90,11.4,26,Female,1,5
+ATT00107,EMP00601,Sales,Account Manager,2024-12-25,20,784793.0,Higher Salary,Better Opportunity,0,Yes,90,6.3,26,Female,4,1
+ATT00108,EMP00605,Sales,Senior Sales,2016-11-19,16,912039.0,Better Opportunity,Relocation,0,Yes,30,5.0,36,Female,3,2
+ATT00109,EMP00607,Customer Success,CS Manager,2023-08-18,24,742323.0,Manager Issues,Better Opportunity,1,Maybe,60,5.4,22,Male,5,3
+ATT00110,EMP00608,Sales,Senior Sales,2021-05-14,30,949904.0,Personal Reasons,Growth Stagnation,1,No,60,12.3,23,Female,3,1
+ATT00111,EMP00617,Customer Success,CS Director,2022-03-16,78,696945.0,Personal Reasons,Personal Reasons,1,Yes,60,5.7,49,Male,2,4
+ATT00112,EMP00619,Product,VP Product,2019-11-27,19,791942.0,Manager Issues,Relocation,1,No,60,10.7,29,Male,4,3
+ATT00113,EMP00624,Finance,Controller,2020-08-31,65,653086.0,Higher Salary,Health Issues,1,Yes,90,4.8,35,Male,4,2
+ATT00114,EMP00625,Operations,COO,2020-09-10,48,599029.0,Manager Issues,Competitor Offer,1,No,30,5.3,43,Male,5,5
+ATT00115,EMP00631,Marketing,Digital Marketing Manager,2023-10-02,92,624477.0,Growth Stagnation,Company Culture,1,Maybe,30,3.9,23,Male,4,5
+ATT00116,EMP00635,Product,Product Analyst,2020-07-18,47,842043.0,Manager Issues,Personal Reasons,1,Yes,30,6.6,46,Other,3,4
+ATT00117,EMP00641,Engineering,Senior Engineer,2019-07-15,1,1353632.0,Competitor Offer,Competitor Offer,1,Yes,60,11.1,48,Male,2,1
+ATT00118,EMP00655,HR,HR Business Partner,2024-01-27,16,868396.0,Better Opportunity,Higher Salary,1,Yes,60,7.6,42,Female,1,2
+ATT00119,EMP00663,HR,Recruiter,2020-06-30,13,828361.0,Better Opportunity,Company Culture,0,Maybe,90,7.7,45,Male,3,3
+ATT00120,EMP00665,Data Analytics,Senior Analyst,2017-01-21,9,1216522.0,Personal Reasons,Relocation,1,Yes,30,12.4,41,Male,1,4
+ATT00121,EMP00668,Legal,Company Secretary,2023-08-21,33,705417.0,Manager Issues,Higher Salary,0,No,30,6.3,38,Male,3,1
+ATT00122,EMP00680,Engineering,Principal Engineer,2022-02-13,75,3226558.0,Work Life Balance,Competitor Offer,1,No,30,47.8,44,Female,3,2
+ATT00123,EMP00694,Marketing,Digital Marketing Manager,2022-07-22,9,703089.0,Personal Reasons,Competitor Offer,1,Maybe,60,7.8,39,Male,5,3
+ATT00124,EMP00700,Legal,Legal Manager,2024-12-02,55,606454.0,Company Culture,Personal Reasons,0,No,30,7.1,39,Male,3,5
+ATT00125,EMP00709,Data Analytics,Data Analyst,2021-03-29,38,584751.0,Growth Stagnation,Better Opportunity,1,No,90,6.0,29,Male,4,5
+ATT00126,EMP00714,Customer Success,Account Executive,2022-09-10,6,867486.0,Health Issues,Personal Reasons,1,Maybe,30,6.6,29,Male,2,3
+ATT00127,EMP00718,Customer Success,CS Manager,2024-06-25,24,670930.0,Company Culture,Manager Issues,1,No,90,3.7,46,Male,4,4
+ATT00128,EMP00725,Engineering,Software Engineer,2021-07-31,54,772950.0,Higher Salary,Personal Reasons,0,No,30,3.9,24,Female,4,5
+ATT00129,EMP00731,HR,HR Manager,2017-07-09,18,596496.0,Personal Reasons,Higher Salary,1,No,90,8.3,39,Female,3,5
+ATT00130,EMP00737,Product,Product Manager,2023-10-08,36,1638173.0,Work Life Balance,Growth Stagnation,1,Yes,60,13.1,25,Female,5,4
+ATT00131,EMP00742,Operations,Operations Manager,2024-02-18,39,867658.0,Competitor Offer,Growth Stagnation,1,Maybe,90,5.5,53,Female,2,5
+ATT00132,EMP00743,Sales,Sales Manager,2024-06-03,12,1083211.0,Work Life Balance,Competitor Offer,1,Yes,60,14.8,45,Male,3,1
+ATT00133,EMP00753,Customer Success,CS Executive,2018-10-23,12,752270.0,Growth Stagnation,Growth Stagnation,1,Maybe,60,9.8,34,Female,4,1
+ATT00134,EMP00754,Data Analytics,Data Scientist,2023-03-04,74,1628806.0,Competitor Offer,Higher Salary,1,No,30,13.3,36,Male,3,1
+ATT00135,EMP00760,Operations,Operations Executive,2024-03-05,8,840089.0,Higher Salary,Manager Issues,1,No,90,8.7,32,Male,4,2
+ATT00136,EMP00767,Finance,Senior Analyst,2024-02-14,64,872367.0,Work Life Balance,Competitor Offer,1,Yes,90,12.0,26,Female,1,3
+ATT00137,EMP00774,Sales,Sales Manager,2021-09-28,61,1098164.0,Work Life Balance,Health Issues,1,Maybe,60,10.6,39,Male,5,4
+ATT00138,EMP00776,Finance,CFO,2019-09-03,5,696461.0,Work Life Balance,Manager Issues,1,Maybe,90,6.2,43,Female,1,2
+ATT00139,EMP00781,Sales,Senior Sales,2022-02-12,6,967004.0,Competitor Offer,Higher Salary,1,Maybe,60,6.6,45,Male,3,3
+ATT00140,EMP00790,Engineering,Tech Lead,2023-01-08,27,1793150.0,Manager Issues,Growth Stagnation,1,Maybe,90,11.6,24,Other,5,1
+ATT00141,EMP00794,Sales,Account Manager,2023-07-09,16,808838.0,Work Life Balance,Company Culture,1,Yes,30,7.5,48,Female,2,4
+ATT00142,EMP00797,Marketing,SEO Analyst,2020-11-16,44,795436.0,Company Culture,Competitor Offer,1,Yes,60,4.0,24,Male,3,3
+ATT00143,EMP00800,Engineering,DevOps Engineer,2023-07-13,45,720781.0,Better Opportunity,Relocation,0,No,90,10.2,52,Male,1,1
+ATT00144,EMP00801,Legal,Legal Manager,2023-11-12,33,752611.0,Manager Issues,Competitor Offer,1,Yes,90,8.0,45,Female,1,4
+ATT00145,EMP00802,Operations,COO,2024-06-11,16,754425.0,Relocation,Better Opportunity,0,No,90,8.1,45,Male,3,2
+ATT00146,EMP00804,Marketing,Content Writer,2022-12-06,30,708709.0,Health Issues,Health Issues,0,Maybe,90,7.4,38,Male,5,5
+ATT00147,EMP00805,Product,Product Manager,2020-03-02,40,1529927.0,Relocation,Health Issues,1,Yes,90,19.4,29,Male,5,1
+ATT00148,EMP00812,HR,HR Business Partner,2024-10-14,12,811509.0,Personal Reasons,Competitor Offer,1,Yes,60,7.3,24,Female,1,3
+ATT00149,EMP00815,Operations,Process Analyst,2023-12-22,48,618137.0,Relocation,Growth Stagnation,1,Yes,60,6.4,24,Male,4,4
+ATT00150,EMP00825,Sales,Account Manager,2022-02-26,3,635818.0,Personal Reasons,Relocation,1,Maybe,90,7.1,52,Male,5,2
+ATT00151,EMP00827,Sales,Account Manager,2021-05-25,54,595062.0,Relocation,Better Opportunity,1,Yes,60,6.3,37,Female,4,5
+ATT00152,EMP00828,Data Analytics,Analytics Manager,2016-11-26,16,3096835.0,Manager Issues,Relocation,0,Yes,30,39.0,39,Female,1,5
+ATT00153,EMP00829,HR,Recruiter,2018-12-22,30,837791.0,Company Culture,Work Life Balance,1,Yes,60,5.0,54,Female,1,2
+ATT00154,EMP00838,Engineering,Engineering Manager,2022-06-22,59,3125897.0,Manager Issues,Manager Issues,1,Yes,30,36.2,47,Female,2,3
+ATT00155,EMP00844,Engineering,Tech Lead,2023-06-19,63,2184682.0,Relocation,Growth Stagnation,1,No,90,23.6,38,Male,4,4
+ATT00156,EMP00847,Engineering,Software Engineer,2022-09-03,34,907656.0,Competitor Offer,Growth Stagnation,0,Yes,90,12.3,43,Male,5,3
+ATT00157,EMP00849,HR,HR Business Partner,2022-04-21,68,821837.0,Health Issues,Better Opportunity,0,No,90,7.0,43,Female,1,3
+ATT00158,EMP00852,Data Analytics,Senior Analyst,2024-08-29,10,1132117.0,Competitor Offer,Company Culture,1,Yes,30,10.3,30,Male,3,1
+ATT00159,EMP00863,HR,HR Manager,2019-07-17,5,800670.0,Manager Issues,Higher Salary,0,Maybe,60,7.9,31,Male,5,2
+ATT00160,EMP00867,Customer Success,CS Executive,2023-05-26,8,775508.0,Relocation,Work Life Balance,0,Maybe,60,4.5,53,Male,2,2
+ATT00161,EMP00872,HR,HR Business Partner,2023-06-20,88,823756.0,Health Issues,Work Life Balance,1,Yes,60,9.9,29,Female,4,5
+ATT00162,EMP00890,Legal,General Counsel,2021-12-25,84,686456.0,Personal Reasons,Personal Reasons,0,Maybe,60,9.8,22,Female,4,1
+ATT00163,EMP00896,Legal,Company Secretary,2022-11-12,63,771096.0,Manager Issues,Manager Issues,1,Yes,30,5.9,31,Female,5,4
+ATT00164,EMP00906,Operations,Process Analyst,2018-12-26,41,789201.0,Relocation,Relocation,0,Maybe,90,5.5,32,Male,3,1
+ATT00165,EMP00908,Operations,Operations Manager,2021-08-18,6,617952.0,Health Issues,Competitor Offer,1,Yes,90,6.4,39,Female,3,2
+ATT00166,EMP00916,Marketing,Brand Manager,2020-10-10,61,863584.0,Growth Stagnation,Health Issues,0,No,30,9.8,51,Male,2,4
+ATT00167,EMP00922,Marketing,Brand Manager,2020-03-17,56,697242.0,Manager Issues,Competitor Offer,1,Maybe,30,6.4,25,Male,3,3
+ATT00168,EMP00928,Sales,Sales Executive,2023-12-24,15,541805.0,Manager Issues,Relocation,1,Maybe,60,7.8,31,Female,3,1
+ATT00169,EMP00929,Customer Success,CS Director,2021-08-24,6,600575.0,Better Opportunity,Competitor Offer,1,No,60,6.0,30,Male,1,5
+ATT00170,EMP00934,Product,VP Product,2024-03-28,64,840700.0,Better Opportunity,Company Culture,0,No,30,6.5,36,Male,2,3
+ATT00171,EMP00943,Sales,Account Manager,2024-05-30,14,840711.0,Better Opportunity,Competitor Offer,0,No,90,10.5,44,Female,5,1
+ATT00172,EMP00944,Engineering,Engineering Manager,2024-02-25,21,3126935.0,Personal Reasons,Competitor Offer,1,No,60,28.2,43,Male,2,3
+ATT00173,EMP00945,Product,VP Product,2020-09-28,43,769311.0,Work Life Balance,Manager Issues,1,Maybe,90,4.8,22,Female,1,1
+ATT00174,EMP00946,Sales,Senior Sales,2023-02-22,0,749632.0,Competitor Offer,Relocation,1,Maybe,60,4.6,25,Female,3,3
+ATT00175,EMP00960,Marketing,Brand Manager,2021-02-02,28,851394.0,Relocation,Personal Reasons,1,Yes,60,7.5,33,Male,2,4
+ATT00176,EMP00961,Finance,Controller,2022-05-10,74,614799.0,Growth Stagnation,Company Culture,1,No,90,9.2,27,Male,4,3
+ATT00177,EMP00969,Product,Product Analyst,2023-04-30,18,867835.0,Competitor Offer,Company Culture,1,No,30,5.1,50,Male,2,1
+ATT00178,EMP00973,Legal,Company Secretary,2024-10-18,22,771639.0,Relocation,Competitor Offer,1,Yes,30,4.9,51,Male,1,5
+ATT00179,EMP00983,Engineering,Engineering Manager,2022-10-28,1,3453535.0,Company Culture,Health Issues,1,Yes,60,31.2,22,Female,3,2
+ATT00180,EMP00985,Customer Success,CS Manager,2018-10-25,7,638694.0,Better Opportunity,Higher Salary,1,Yes,60,8.3,32,Male,2,3
+ATT00181,EMP00997,Marketing,SEO Analyst,2024-10-07,21,815846.0,Health Issues,Work Life Balance,0,No,60,10.7,23,Female,1,5
+ATT00182,EMP01000,Finance,Controller,2022-03-24,4,856080.0,Company Culture,Company Culture,1,Yes,60,5.8,43,Female,2,4
+ATT00183,EMP01009,Finance,CFO,2023-01-12,54,822245.0,Company Culture,Work Life Balance,1,Yes,60,5.7,30,Female,1,1
+ATT00184,EMP01013,Sales,Sales Executive,2020-11-21,33,471442.0,Relocation,Manager Issues,0,No,30,2.4,39,Male,5,5
+ATT00185,EMP01016,HR,HR Executive,2021-12-04,3,387710.0,Company Culture,Company Culture,1,Maybe,90,2.5,52,Female,4,3
+ATT00186,EMP01017,Operations,Process Analyst,2020-10-10,12,783282.0,Growth Stagnation,Higher Salary,1,Yes,90,8.8,53,Male,5,4
+ATT00187,EMP01018,Engineering,Engineering Manager,2017-02-16,6,2575904.0,Better Opportunity,Higher Salary,1,Yes,30,35.8,33,Male,4,3
+ATT00188,EMP01026,Product,Director of Product,2017-04-03,18,607052.0,Personal Reasons,Better Opportunity,0,No,90,3.2,53,Female,1,5
+ATT00189,EMP01032,HR,Recruiter,2023-04-04,10,699643.0,Company Culture,Better Opportunity,1,No,30,5.6,34,Other,4,5
+ATT00190,EMP01033,Marketing,Marketing Executive,2018-02-12,26,700785.0,Growth Stagnation,Better Opportunity,1,Yes,90,7.6,24,Male,1,5
+ATT00191,EMP01035,Customer Success,CS Manager,2021-12-01,53,855671.0,Health Issues,Manager Issues,0,Yes,60,4.7,22,Male,4,2
+ATT00192,EMP01040,Legal,Legal Manager,2022-08-13,41,655018.0,Growth Stagnation,Competitor Offer,1,No,60,8.5,25,Female,2,2
+ATT00193,EMP01054,Marketing,Content Writer,2016-07-05,7,824188.0,Higher Salary,Work Life Balance,1,No,60,5.4,38,Male,4,1
+ATT00194,EMP01060,Legal,General Counsel,2023-01-20,3,852366.0,Work Life Balance,Competitor Offer,1,Maybe,60,8.0,31,Male,2,4
+ATT00195,EMP01065,Product,Product Analyst,2018-11-05,24,755799.0,Growth Stagnation,Growth Stagnation,1,Maybe,30,9.4,25,Male,2,1
+ATT00196,EMP01070,Engineering,Engineering Manager,2021-06-16,1,3169159.0,Health Issues,Health Issues,0,Yes,90,19.8,32,Male,5,2
+ATT00197,EMP01071,Finance,Senior Analyst,2020-04-20,33,1064431.0,Competitor Offer,Health Issues,0,Yes,30,13.0,55,Male,3,4
+ATT00198,EMP01072,Customer Success,CS Manager,2019-01-26,6,674179.0,Competitor Offer,Manager Issues,1,Maybe,90,9.6,36,Female,1,4
+ATT00199,EMP01075,Product,Senior PM,2017-05-31,3,2279458.0,Competitor Offer,Work Life Balance,1,Yes,90,15.1,45,Female,2,1
+ATT00200,EMP01086,Legal,Legal Executive,2021-01-31,24,707853.0,Company Culture,Growth Stagnation,1,Maybe,30,7.7,25,Male,2,1
+ATT00201,EMP01088,Engineering,Software Engineer,2023-10-29,1,951780.0,Personal Reasons,Competitor Offer,1,Maybe,90,9.0,46,Male,5,1
+ATT00202,EMP01093,Sales,Account Manager,2024-05-10,5,750699.0,Better Opportunity,Personal Reasons,1,Maybe,30,6.7,22,Female,5,1
+ATT00203,EMP01094,Engineering,Software Engineer,2019-07-03,11,994377.0,Personal Reasons,Manager Issues,0,Maybe,30,6.5,37,Male,3,3
+ATT00204,EMP01103,HR,HR Manager,2023-06-08,0,744683.0,Manager Issues,Growth Stagnation,0,No,30,7.5,30,Male,1,1
+ATT00205,EMP01104,Legal,General Counsel,2022-04-06,79,715522.0,Work Life Balance,Growth Stagnation,1,No,90,10.6,38,Other,1,2
+ATT00206,EMP01109,Data Analytics,Data Scientist,2022-09-29,6,1635587.0,Company Culture,Growth Stagnation,1,Yes,60,10.7,35,Male,2,5
+ATT00207,EMP01112,Operations,Operations Executive,2017-10-25,24,661068.0,Higher Salary,Health Issues,0,Yes,90,8.3,28,Male,3,1
+ATT00208,EMP01116,Customer Success,CS Director,2024-04-21,19,657143.0,Relocation,Better Opportunity,1,Yes,60,9.4,24,Female,1,1
+ATT00209,EMP01121,HR,HR Executive,2022-11-20,20,501480.0,Work Life Balance,Personal Reasons,1,Yes,30,6.7,26,Male,1,1
+ATT00210,EMP01125,Operations,COO,2023-08-31,25,765622.0,Relocation,Growth Stagnation,1,No,30,4.1,27,Male,3,3
+ATT00211,EMP01128,Customer Success,CS Executive,2019-04-26,46,833869.0,Manager Issues,Competitor Offer,1,Yes,30,11.3,40,Female,3,3
+ATT00212,EMP01145,Finance,Controller,2024-01-11,92,866352.0,Better Opportunity,Work Life Balance,0,No,60,11.8,25,Female,5,4
+ATT00213,EMP01160,HR,Recruiter,2020-04-03,60,820639.0,Better Opportunity,Growth Stagnation,0,Maybe,90,8.8,48,Female,3,2
+ATT00214,EMP01179,Data Analytics,Data Analyst,2017-08-20,23,583429.0,Better Opportunity,Competitor Offer,1,Yes,90,8.2,24,Female,2,4
+ATT00215,EMP01184,Product,Senior PM,2024-07-07,55,2165545.0,Competitor Offer,Company Culture,1,No,30,16.4,30,Female,2,3
+ATT00216,EMP01185,HR,HR Manager,2020-11-25,5,850530.0,Health Issues,Better Opportunity,1,No,60,6.8,54,Female,5,1
+ATT00217,EMP01190,Data Analytics,Data Analyst,2021-03-05,45,530919.0,Better Opportunity,Higher Salary,1,Maybe,30,3.2,25,Male,4,3
+ATT00218,EMP01196,Marketing,SEO Analyst,2019-08-27,1,683952.0,Higher Salary,Better Opportunity,0,Maybe,90,4.1,24,Male,4,1
+ATT00219,EMP01203,Customer Success,Account Executive,2024-03-21,13,816639.0,Personal Reasons,Health Issues,1,Yes,30,11.2,54,Female,1,4
+ATT00220,EMP01204,Sales,Sales Manager,2022-04-02,57,1071878.0,Work Life Balance,Personal Reasons,1,No,60,10.8,40,Female,1,2
+ATT00221,EMP01205,HR,Recruiter,2024-04-21,19,815745.0,Higher Salary,Better Opportunity,1,Yes,60,6.7,34,Male,1,2
+ATT00222,EMP01207,Marketing,SEO Analyst,2024-04-29,79,708854.0,Competitor Offer,Better Opportunity,1,No,30,7.8,25,Female,1,3
+ATT00223,EMP01215,Legal,Company Secretary,2024-06-05,74,788506.0,Company Culture,Work Life Balance,1,Yes,90,5.4,31,Female,1,3
+ATT00224,EMP01221,Operations,Operations Manager,2021-12-09,8,674098.0,Higher Salary,Growth Stagnation,0,Maybe,60,8.2,26,Male,2,1
+ATT00225,EMP01223,Marketing,Digital Marketing Manager,2020-08-06,33,622125.0,Better Opportunity,Higher Salary,0,No,90,4.0,53,Male,3,5
+ATT00226,EMP01229,Sales,Senior Sales,2018-10-04,42,895300.0,Work Life Balance,Work Life Balance,0,No,30,12.1,25,Female,1,4
+ATT00227,EMP01234,Engineering,Principal Engineer,2023-11-26,0,3575770.0,Better Opportunity,Company Culture,1,No,30,51.2,55,Male,5,3
+ATT00228,EMP01237,Marketing,Digital Marketing Manager,2018-05-06,13,842309.0,Health Issues,Health Issues,0,No,60,5.1,25,Male,2,4
+ATT00229,EMP01239,Customer Success,CS Manager,2023-04-08,32,697270.0,Higher Salary,Growth Stagnation,1,Maybe,90,7.9,39,Female,4,2
+ATT00230,EMP01242,Finance,Controller,2021-07-07,4,632873.0,Company Culture,Personal Reasons,0,Yes,90,8.6,52,Female,2,5
+ATT00231,EMP01245,Finance,Finance Manager,2022-10-22,0,819675.0,Manager Issues,Company Culture,0,Yes,90,9.1,52,Male,3,5
+ATT00232,EMP01257,Finance,Senior Analyst,2024-11-06,16,858656.0,Company Culture,Growth Stagnation,1,No,90,4.5,49,Female,1,3
+ATT00233,EMP01262,Operations,Process Analyst,2020-05-23,35,790321.0,Higher Salary,Relocation,1,No,60,10.6,51,Male,3,3
+ATT00234,EMP01263,Product,VP Product,2017-10-17,17,823635.0,Higher Salary,Work Life Balance,1,Yes,30,8.7,53,Female,1,3
+ATT00235,EMP01264,Product,Senior PM,2024-08-05,12,2040012.0,Relocation,Growth Stagnation,1,Maybe,90,26.2,25,Male,3,3
+ATT00236,EMP01267,Marketing,Brand Manager,2017-01-30,8,826696.0,Growth Stagnation,Work Life Balance,1,No,30,5.0,38,Male,2,2
+ATT00237,EMP01273,Engineering,Software Engineer,2019-06-09,0,906764.0,Relocation,Higher Salary,1,Yes,30,10.9,55,Male,4,2
+ATT00238,EMP01283,Engineering,Software Engineer,2024-06-03,109,902564.0,Health Issues,Work Life Balance,1,Yes,30,13.4,51,Male,4,4
+ATT00239,EMP01284,Product,Senior PM,2024-01-26,81,2529894.0,Health Issues,Manager Issues,1,Maybe,30,29.6,37,Male,1,2
+ATT00240,EMP01288,Product,Product Manager,2019-10-09,23,1793325.0,Work Life Balance,Better Opportunity,1,Yes,60,24.3,27,Female,3,1
+ATT00241,EMP01299,Operations,Process Analyst,2024-04-26,6,746714.0,Manager Issues,Work Life Balance,1,Maybe,90,7.5,32,Female,2,1
+ATT00242,EMP01300,Sales,Sales Executive,2023-04-08,93,547128.0,Relocation,Relocation,0,Maybe,60,3.8,45,Male,2,5
+ATT00243,EMP01313,Customer Success,Account Executive,2024-11-20,102,751153.0,Company Culture,Competitor Offer,1,No,90,7.9,22,Male,1,4
+ATT00244,EMP01315,Product,Senior PM,2024-02-10,28,2215767.0,Health Issues,Work Life Balance,0,Maybe,30,11.5,28,Male,1,5
+ATT00245,EMP01321,HR,HR Business Partner,2022-01-09,56,760597.0,Better Opportunity,Competitor Offer,1,Yes,90,8.9,23,Male,3,2
+ATT00246,EMP01322,Data Analytics,Data Analyst,2022-02-21,32,687794.0,Growth Stagnation,Growth Stagnation,1,No,60,8.6,33,Male,1,2
+ATT00247,EMP01323,Operations,Process Analyst,2024-10-11,52,648429.0,Competitor Offer,Health Issues,0,No,60,3.6,39,Male,5,3
+ATT00248,EMP01329,Marketing,Marketing Executive,2022-08-09,36,613133.0,Health Issues,Growth Stagnation,0,Maybe,30,6.9,36,Male,4,1
+ATT00249,EMP01340,Operations,Process Analyst,2023-03-24,70,769090.0,Work Life Balance,Work Life Balance,0,No,90,7.7,25,Female,3,2
+ATT00250,EMP01341,Sales,Account Manager,2017-12-12,34,861360.0,Personal Reasons,Higher Salary,1,Maybe,90,8.0,22,Female,5,3
+ATT00251,EMP01343,Product,Senior PM,2021-09-22,3,2599963.0,Personal Reasons,Higher Salary,0,Maybe,90,31.9,23,Male,4,1
+ATT00252,EMP01346,Legal,Company Secretary,2021-08-11,31,704397.0,Manager Issues,Competitor Offer,1,Yes,60,6.1,29,Male,1,3
+ATT00253,EMP01358,Marketing,Content Writer,2022-08-31,39,769970.0,Manager Issues,Competitor Offer,1,Yes,90,9.4,26,Male,4,4
+ATT00254,EMP01361,Engineering,Principal Engineer,2017-12-11,12,3385037.0,Competitor Offer,Relocation,0,Yes,60,34.1,33,Female,1,5
+ATT00255,EMP01363,Sales,VP Sales,2022-10-31,29,645705.0,Work Life Balance,Better Opportunity,1,Maybe,90,9.0,55,Female,1,3
+ATT00256,EMP01369,HR,HR Manager,2017-04-02,14,804089.0,Better Opportunity,Work Life Balance,0,No,90,10.7,25,Male,5,5
+ATT00257,EMP01372,Data Analytics,Data Analyst,2023-07-24,27,558076.0,Company Culture,Work Life Balance,1,Yes,90,3.3,23,Female,1,1
+ATT00258,EMP01375,Product,Senior PM,2021-12-20,61,2333260.0,Relocation,Health Issues,0,Maybe,30,30.9,23,Female,3,1
+ATT00259,EMP01376,Marketing,Marketing Executive,2023-11-26,26,701015.0,Company Culture,Growth Stagnation,1,Maybe,60,6.0,54,Male,3,2
+ATT00260,EMP01379,Customer Success,Account Executive,2022-11-15,57,824424.0,Better Opportunity,Manager Issues,1,No,30,11.3,38,Female,5,2
+ATT00261,EMP01385,Engineering,Engineering Manager,2024-02-17,16,2571332.0,Work Life Balance,Better Opportunity,0,Maybe,30,35.2,34,Female,1,4
+ATT00262,EMP01387,Sales,Senior Sales,2022-11-13,2,747940.0,Higher Salary,Manager Issues,0,Maybe,30,10.7,49,Male,5,3
+ATT00263,EMP01389,Operations,Operations Manager,2018-06-09,35,694589.0,Manager Issues,Better Opportunity,1,Maybe,30,9.8,35,Male,3,1
+ATT00264,EMP01391,Product,VP Product,2016-06-22,9,659889.0,Competitor Offer,Better Opportunity,1,Maybe,30,6.0,54,Female,3,4
+ATT00265,EMP01394,Sales,Sales Manager,2023-03-25,74,1195007.0,Work Life Balance,Growth Stagnation,1,No,60,14.5,55,Female,2,5
+ATT00266,EMP01401,Engineering,Software Engineer,2022-11-10,69,838061.0,Manager Issues,Higher Salary,0,Maybe,90,8.1,23,Male,2,2
+ATT00267,EMP01408,Sales,Regional Manager,2024-07-19,28,855093.0,Higher Salary,Personal Reasons,1,Yes,60,12.5,45,Female,1,4
+ATT00268,EMP01410,HR,HR Executive,2024-05-21,99,481802.0,Higher Salary,Growth Stagnation,1,Maybe,60,4.2,53,Female,4,2
+ATT00269,EMP01413,Engineering,DevOps Engineer,2020-03-05,4,871775.0,Manager Issues,Company Culture,1,Maybe,90,6.8,52,Female,3,2
+ATT00270,EMP01417,Legal,Company Secretary,2024-10-01,54,741681.0,Relocation,Higher Salary,1,Maybe,90,9.9,22,Female,3,4
+ATT00271,EMP01422,Engineering,Principal Engineer,2019-12-11,3,4256143.0,Personal Reasons,Relocation,1,No,90,33.9,25,Male,2,5
+ATT00272,EMP01428,Engineering,DevOps Engineer,2018-10-14,33,657111.0,Better Opportunity,Work Life Balance,1,No,30,4.8,48,Male,1,2
+ATT00273,EMP01432,Engineering,DevOps Engineer,2024-04-28,9,716267.0,Health Issues,Higher Salary,0,Maybe,30,8.4,25,Male,3,5
+ATT00274,EMP01443,Legal,Legal Executive,2019-11-01,24,659999.0,Company Culture,Manager Issues,1,Maybe,30,5.8,28,Female,4,5
+ATT00275,EMP01447,Finance,Finance Manager,2024-12-21,13,684363.0,Health Issues,Growth Stagnation,0,Yes,60,9.6,52,Female,1,5
+ATT00276,EMP01448,Sales,Regional Manager,2021-01-23,43,671613.0,Competitor Offer,Relocation,0,Maybe,60,6.6,40,Male,3,5
+ATT00277,EMP01452,Product,Senior PM,2024-12-19,110,2094199.0,Manager Issues,Personal Reasons,0,Maybe,60,12.0,22,Male,1,4
+ATT00278,EMP01459,Engineering,DevOps Engineer,2016-11-17,5,712170.0,Relocation,Personal Reasons,1,No,60,6.6,26,Male,1,5
+ATT00279,EMP01460,Customer Success,CS Executive,2021-04-16,10,777585.0,Competitor Offer,Health Issues,1,No,30,7.4,42,Male,1,1
+ATT00280,EMP01461,Product,Product Analyst,2022-01-12,12,675131.0,Manager Issues,Competitor Offer,1,No,30,3.6,25,Female,1,3
+ATT00281,EMP01467,Operations,Operations Executive,2024-04-23,33,602886.0,Better Opportunity,Manager Issues,1,No,90,7.3,26,Male,3,4
+ATT00282,EMP01470,Legal,Legal Manager,2024-12-28,67,755321.0,Company Culture,Growth Stagnation,1,Yes,60,8.8,51,Male,4,5
+ATT00283,EMP01480,Marketing,Brand Manager,2023-09-02,46,770271.0,Manager Issues,Health Issues,1,Maybe,30,10.7,49,Female,2,3
+ATT00284,EMP01489,Finance,Finance Manager,2024-04-30,21,669140.0,Health Issues,Relocation,0,Maybe,60,4.2,36,Male,3,1
+ATT00285,EMP01502,Sales,Account Manager,2019-05-24,10,835227.0,Higher Salary,Work Life Balance,1,No,30,4.8,24,Male,1,5
+ATT00286,EMP01504,Data Analytics,BI Developer,2015-11-04,1,1093648.0,Personal Reasons,Work Life Balance,0,Yes,60,14.6,23,Male,2,1
+ATT00287,EMP01506,Finance,CFO,2024-01-25,13,603612.0,Better Opportunity,Personal Reasons,1,No,60,9.0,50,Male,2,4
+ATT00288,EMP01511,Data Analytics,Data Scientist,2024-03-31,5,1854878.0,Company Culture,Manager Issues,1,No,90,18.9,27,Female,1,3
+ATT00289,EMP01513,Customer Success,CS Manager,2021-06-06,26,728367.0,Competitor Offer,Relocation,1,No,60,6.0,23,Male,5,5
+ATT00290,EMP01515,Operations,Process Analyst,2021-12-13,10,793530.0,Work Life Balance,Competitor Offer,1,Maybe,30,5.6,30,Female,1,2
+ATT00291,EMP01516,Legal,Legal Executive,2024-06-26,29,809467.0,Company Culture,Better Opportunity,1,Yes,60,5.6,34,Male,2,5
+ATT00292,EMP01517,Operations,COO,2022-12-25,16,642896.0,Company Culture,Better Opportunity,0,No,30,3.6,27,Female,1,3
+ATT00293,EMP01524,Sales,Account Manager,2020-11-19,49,808568.0,Relocation,Health Issues,1,No,90,11.3,52,Female,4,1
+ATT00294,EMP01526,Customer Success,CS Executive,2024-11-03,54,667695.0,Work Life Balance,Higher Salary,0,No,90,3.8,53,Male,4,1
+ATT00295,EMP01527,Customer Success,CS Manager,2021-08-29,71,775345.0,Higher Salary,Health Issues,0,No,90,11.2,47,Female,3,3
+ATT00296,EMP01531,Customer Success,CS Executive,2021-11-25,22,615211.0,Company Culture,Personal Reasons,1,No,90,7.6,53,Male,5,3
+ATT00297,EMP01534,Engineering,DevOps Engineer,2024-02-19,41,743774.0,Better Opportunity,Manager Issues,1,No,30,9.1,28,Male,4,1
+ATT00298,EMP01553,Marketing,Marketing Executive,2017-04-26,3,812707.0,Competitor Offer,Health Issues,1,No,90,5.4,22,Female,2,4
+ATT00299,EMP01554,Product,VP Product,2019-10-27,5,831242.0,Health Issues,Health Issues,1,Yes,60,8.5,45,Female,4,1
+ATT00300,EMP01556,Marketing,SEO Analyst,2023-11-12,11,742010.0,Relocation,Work Life Balance,1,Yes,60,8.9,35,Female,4,5
+ATT00301,EMP01564,Finance,Financial Analyst,2019-08-02,24,679623.0,Better Opportunity,Work Life Balance,1,Maybe,90,3.9,47,Male,2,4
+ATT00302,EMP01565,Marketing,Marketing Executive,2019-01-06,41,868083.0,Manager Issues,Work Life Balance,1,No,90,7.4,49,Male,5,2
+ATT00303,EMP01568,Finance,Controller,2022-02-20,57,782988.0,Higher Salary,Personal Reasons,1,Yes,30,5.5,39,Male,1,3
+ATT00304,EMP01569,HR,Recruiter,2017-02-18,14,840958.0,Relocation,Higher Salary,1,No,60,8.4,44,Male,1,5
+ATT00305,EMP01582,Engineering,DevOps Engineer,2023-11-14,8,735714.0,Work Life Balance,Growth Stagnation,0,Yes,90,10.6,38,Male,1,5
+ATT00306,EMP01588,Marketing,Digital Marketing Manager,2024-10-02,11,601692.0,Better Opportunity,Personal Reasons,0,No,30,4.3,55,Female,2,4
+ATT00307,EMP01600,Engineering,Engineering Manager,2019-12-09,12,2426624.0,Relocation,Growth Stagnation,1,No,60,15.3,30,Female,1,3
+ATT00308,EMP01603,Customer Success,CS Executive,2024-06-12,6,602873.0,Better Opportunity,Health Issues,0,Yes,60,3.7,31,Female,4,5
+ATT00309,EMP01618,Product,VP Product,2023-05-06,42,771057.0,Company Culture,Higher Salary,1,No,60,6.5,45,Female,3,1
+ATT00310,EMP01621,HR,HR Executive,2018-09-29,13,456658.0,Work Life Balance,Company Culture,0,Maybe,60,3.4,29,Male,4,5
+ATT00311,EMP01623,Product,Product Manager,2022-08-08,66,1513331.0,Health Issues,Company Culture,1,Maybe,30,12.3,26,Male,1,5
+ATT00312,EMP01628,Engineering,Engineering Manager,2023-07-28,103,2769476.0,Health Issues,Health Issues,1,No,90,27.5,27,Female,3,1
+ATT00313,EMP01632,Engineering,Software Engineer,2024-11-18,12,781907.0,Manager Issues,Health Issues,1,Maybe,90,8.5,48,Male,3,4
+ATT00314,EMP01634,Legal,General Counsel,2024-01-29,1,847097.0,Work Life Balance,Personal Reasons,1,No,90,8.6,27,Female,4,1
+ATT00315,EMP01642,Operations,Operations Executive,2021-08-27,44,649150.0,Competitor Offer,Company Culture,1,Maybe,30,5.3,25,Female,2,5
+ATT00316,EMP01646,Engineering,Software Engineer,2020-07-17,28,701181.0,Higher Salary,Relocation,0,Maybe,30,9.6,23,Male,3,2
+ATT00317,EMP01648,Product,Director of Product,2022-04-06,37,804553.0,Personal Reasons,Growth Stagnation,0,No,90,7.4,48,Female,4,2
+ATT00318,EMP01655,Data Analytics,Senior Analyst,2024-01-14,8,1005238.0,Company Culture,Relocation,1,No,60,8.8,25,Female,4,5
+ATT00319,EMP01660,Finance,Financial Analyst,2023-11-18,41,699753.0,Relocation,Relocation,0,Maybe,60,7.9,34,Male,3,3
+ATT00320,EMP01675,Marketing,Digital Marketing Manager,2017-08-09,23,801685.0,Personal Reasons,Growth Stagnation,1,Yes,30,8.8,22,Female,5,4
+ATT00321,EMP01676,Sales,Sales Manager,2022-04-08,24,1368421.0,Work Life Balance,Higher Salary,0,Yes,30,20.5,47,Male,5,1
+ATT00322,EMP01677,Product,Senior PM,2024-09-14,63,2743486.0,Higher Salary,Manager Issues,1,Yes,30,18.7,28,Male,1,5
+ATT00323,EMP01684,Customer Success,CS Executive,2024-09-04,18,861687.0,Relocation,Health Issues,1,No,60,10.1,38,Female,2,4
+ATT00324,EMP01687,Product,Product Analyst,2020-01-21,27,598885.0,Growth Stagnation,Better Opportunity,1,No,90,5.6,49,Male,3,3
+ATT00325,EMP01699,Data Analytics,BI Developer,2024-03-22,20,794929.0,Health Issues,Higher Salary,1,Yes,60,5.3,44,Male,3,4
+ATT00326,EMP01707,HR,HR Director,2018-04-20,27,655528.0,Better Opportunity,Personal Reasons,1,Maybe,90,3.6,24,Male,2,3
+ATT00327,EMP01711,Customer Success,CS Manager,2023-04-15,18,764640.0,Company Culture,Relocation,1,No,30,10.1,32,Male,1,1
+ATT00328,EMP01715,HR,HR Business Partner,2023-08-29,11,759129.0,Growth Stagnation,Higher Salary,1,No,30,11.0,30,Female,1,3
+ATT00329,EMP01719,Operations,Operations Executive,2019-05-23,1,826800.0,Manager Issues,Growth Stagnation,1,Maybe,60,11.0,42,Female,2,3
+ATT00330,EMP01724,HR,Recruiter,2022-10-10,1,779648.0,Higher Salary,Relocation,1,Maybe,30,4.1,29,Male,5,5
+ATT00331,EMP01725,Operations,COO,2024-04-05,62,678304.0,Manager Issues,Relocation,1,Yes,90,4.4,32,Male,4,4
+ATT00332,EMP01726,Sales,Sales Manager,2021-10-10,38,1359963.0,Health Issues,Personal Reasons,0,Maybe,30,12.3,50,Female,1,3
+ATT00333,EMP01741,Marketing,Digital Marketing Manager,2024-03-12,15,634150.0,Better Opportunity,Health Issues,1,Maybe,90,8.1,46,Male,3,4
+ATT00334,EMP01744,HR,HR Executive,2023-03-24,5,524525.0,Manager Issues,Personal Reasons,1,Maybe,30,7.3,46,Female,3,1
+ATT00335,EMP01745,Engineering,Software Engineer,2023-07-15,16,949802.0,Health Issues,Personal Reasons,1,Maybe,30,9.6,33,Female,3,3
+ATT00336,EMP01752,HR,Recruiter,2022-08-07,13,766562.0,Manager Issues,Higher Salary,1,No,90,11.1,28,Male,1,5
+ATT00337,EMP01756,Customer Success,CS Director,2022-04-30,63,763351.0,Personal Reasons,Higher Salary,0,No,30,8.4,44,Female,2,2
+ATT00338,EMP01759,HR,HR Business Partner,2024-11-27,12,635134.0,Personal Reasons,Work Life Balance,1,No,30,7.4,24,Male,2,5
+ATT00339,EMP01767,Customer Success,Account Executive,2022-05-13,15,728276.0,Company Culture,Relocation,0,Yes,90,6.4,25,Male,2,4
+ATT00340,EMP01771,Marketing,Marketing Executive,2018-11-25,11,734623.0,Personal Reasons,Work Life Balance,1,No,30,7.6,37,Male,4,2
+ATT00341,EMP01778,Marketing,Marketing Executive,2019-04-28,3,850130.0,Better Opportunity,Competitor Offer,1,Maybe,90,11.0,34,Male,3,3
+ATT00342,EMP01789,Data Analytics,Data Analyst,2020-04-06,29,584368.0,Personal Reasons,Growth Stagnation,1,No,90,6.9,29,Female,1,2
+ATT00343,EMP01790,Customer Success,CS Director,2022-02-22,5,642255.0,Company Culture,Relocation,1,No,60,5.8,51,Male,1,1
+ATT00344,EMP01793,Marketing,Content Writer,2019-10-23,15,737994.0,Competitor Offer,Relocation,1,Maybe,90,8.5,22,Male,1,5
+ATT00345,EMP01799,Product,Product Analyst,2021-11-24,14,808063.0,Higher Salary,Health Issues,0,Yes,30,4.1,30,Female,5,4
+ATT00346,EMP01806,Sales,Account Manager,2022-07-18,5,822274.0,Company Culture,Company Culture,1,Maybe,60,11.2,24,Female,1,3
+ATT00347,EMP01807,Legal,Legal Executive,2023-08-12,71,651217.0,Relocation,Competitor Offer,1,Maybe,60,5.7,55,Female,2,5
+ATT00348,EMP01809,Data Analytics,Analytics Manager,2022-11-18,0,2320822.0,Higher Salary,Manager Issues,0,Maybe,60,34.2,39,Male,3,5
+ATT00349,EMP01811,Engineering,Engineering Manager,2018-10-03,39,3150682.0,Higher Salary,Growth Stagnation,1,No,30,28.3,53,Female,5,2
+ATT00350,EMP01812,Legal,Legal Manager,2024-09-09,99,851977.0,Health Issues,Higher Salary,0,Yes,30,10.2,22,Female,4,1
+ATT00351,EMP01813,Product,Product Analyst,2021-11-30,23,603909.0,Health Issues,Health Issues,1,No,90,6.1,29,Male,1,4
+ATT00352,EMP01828,HR,HR Manager,2022-08-03,32,683311.0,Work Life Balance,Growth Stagnation,1,Maybe,30,5.4,53,Male,3,1
+ATT00353,EMP01834,Engineering,Software Engineer,2022-03-17,80,992134.0,Work Life Balance,Growth Stagnation,1,Yes,30,13.2,25,Male,3,3
+ATT00354,EMP01839,Sales,VP Sales,2023-03-27,10,685013.0,Work Life Balance,Relocation,0,No,60,8.3,27,Male,5,3
+ATT00355,EMP01841,Sales,Senior Sales,2023-08-29,0,806105.0,Personal Reasons,Higher Salary,1,Yes,90,11.5,22,Female,4,4
+ATT00356,EMP01848,Product,VP Product,2023-01-24,9,793635.0,Growth Stagnation,Work Life Balance,1,No,90,4.8,48,Female,5,5
+ATT00357,EMP01854,Engineering,Tech Lead,2022-03-02,59,2051832.0,Company Culture,Growth Stagnation,0,Yes,60,21.3,23,Female,2,4
+ATT00358,EMP01856,Sales,Sales Executive,2023-10-15,74,609808.0,Work Life Balance,Growth Stagnation,1,Maybe,90,6.7,36,Male,2,3
+ATT00359,EMP01858,HR,HR Business Partner,2022-12-29,79,639710.0,Work Life Balance,Health Issues,0,Maybe,30,3.9,38,Female,2,2
+ATT00360,EMP01869,Sales,VP Sales,2016-09-15,2,662337.0,Growth Stagnation,Higher Salary,1,Yes,30,7.4,29,Male,5,2
+ATT00361,EMP01873,Legal,General Counsel,2023-06-08,40,815095.0,Better Opportunity,Relocation,1,Yes,30,11.5,24,Male,3,1
+ATT00362,EMP01875,Product,Product Analyst,2022-07-03,71,707941.0,Health Issues,Personal Reasons,0,Yes,90,7.5,51,Male,2,2
+ATT00363,EMP01876,Finance,CFO,2021-09-10,28,809256.0,Higher Salary,Personal Reasons,1,No,30,10.1,39,Female,4,5
+ATT00364,EMP01880,Customer Success,Account Executive,2021-02-19,10,763657.0,Competitor Offer,Higher Salary,1,Yes,30,3.9,35,Male,3,3
+ATT00365,EMP01884,Engineering,Engineering Manager,2024-10-20,36,3402094.0,Higher Salary,Manager Issues,1,Maybe,60,34.6,38,Male,2,5
+ATT00366,EMP01888,Engineering,Engineering Manager,2023-08-05,43,2716723.0,Health Issues,Better Opportunity,1,Yes,60,32.2,26,Male,1,2
+ATT00367,EMP01894,HR,HR Business Partner,2019-06-11,38,838996.0,Manager Issues,Work Life Balance,1,Maybe,90,11.7,27,Female,2,4
+ATT00368,EMP01899,Finance,Financial Analyst,2024-06-07,50,746101.0,Higher Salary,Competitor Offer,1,Yes,60,5.4,28,Male,2,3
+ATT00369,EMP01906,Operations,Operations Manager,2023-12-21,52,641510.0,Higher Salary,Better Opportunity,0,Maybe,60,7.5,52,Female,4,1
+ATT00370,EMP01907,Engineering,DevOps Engineer,2021-09-22,20,787239.0,Company Culture,Competitor Offer,1,Yes,60,7.4,41,Female,5,2
+ATT00371,EMP01917,Customer Success,CS Manager,2020-02-08,0,704627.0,Manager Issues,Growth Stagnation,0,No,30,10.3,24,Male,2,2
+ATT00372,EMP01918,Customer Success,Account Executive,2021-06-30,72,846978.0,Growth Stagnation,Company Culture,0,Maybe,60,10.9,26,Female,2,3
+ATT00373,EMP01920,Customer Success,CS Director,2015-12-31,1,793519.0,Relocation,Higher Salary,1,Yes,30,9.2,44,Male,5,3
+ATT00374,EMP01925,Product,Product Manager,2020-10-22,60,1866640.0,Growth Stagnation,Personal Reasons,1,Maybe,90,26.0,45,Male,2,1
+ATT00375,EMP01929,Sales,Sales Manager,2022-04-20,3,1030201.0,Manager Issues,Work Life Balance,1,No,30,7.4,50,Male,3,5
+ATT00376,EMP01941,Data Analytics,Data Scientist,2018-09-27,33,1694385.0,Health Issues,Health Issues,1,No,30,21.1,22,Female,1,5
+ATT00377,EMP01945,Engineering,Engineering Manager,2022-03-10,13,2733227.0,Competitor Offer,Company Culture,1,No,60,32.3,37,Male,4,5
+ATT00378,EMP01952,Finance,Financial Analyst,2021-05-07,17,641818.0,Competitor Offer,Manager Issues,1,Yes,30,9.2,22,Male,4,1
+ATT00379,EMP01957,Engineering,Senior Engineer,2019-08-06,46,1495378.0,Relocation,Manager Issues,1,Maybe,60,13.4,42,Male,2,5
+ATT00380,EMP01961,Legal,Company Secretary,2024-07-20,60,668658.0,Relocation,Better Opportunity,1,No,60,6.6,45,Female,4,4
+ATT00381,EMP01962,Finance,CFO,2023-07-06,5,714736.0,Competitor Offer,Work Life Balance,0,Maybe,60,10.4,55,Male,3,3
+ATT00382,EMP01964,Customer Success,Account Executive,2023-09-21,33,634430.0,Relocation,Company Culture,0,No,60,4.5,29,Male,1,5
+ATT00383,EMP01973,Product,Director of Product,2024-10-03,14,618757.0,Health Issues,Company Culture,1,Maybe,90,5.2,31,Female,3,5
+ATT00384,EMP01976,Engineering,Principal Engineer,2020-07-05,11,3392969.0,Higher Salary,Competitor Offer,0,Maybe,30,28.6,48,Female,4,4
+ATT00385,EMP01978,Engineering,Principal Engineer,2024-09-20,13,3710183.0,Health Issues,Competitor Offer,1,Yes,60,43.3,26,Male,3,4
+ATT00386,EMP01981,Engineering,Principal Engineer,2017-07-11,20,3121682.0,Personal Reasons,Health Issues,1,No,90,44.8,33,Male,4,4
+ATT00387,EMP01986,Operations,Operations Manager,2022-09-28,51,717383.0,Competitor Offer,Higher Salary,1,No,60,6.2,54,Male,5,5
+ATT00388,EMP01997,Product,Product Manager,2018-02-18,11,1486132.0,Competitor Offer,Relocation,1,Maybe,30,12.9,55,Male,1,2
+ATT00389,EMP02000,Engineering,Software Engineer,2020-05-17,23,946839.0,Better Opportunity,Relocation,1,No,60,6.3,44,Male,1,1
